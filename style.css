@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+  font-family: krona one;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+    
+}
+.first-text{
+    font-size: 15px;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 20px;
+}
+.join-button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px  580px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: popins , sans-serif;
+  
+    font-size: 14px;
+    border: 2px solid #333;
+    transition: 0.25s;
+}
+.first-link{
+    text-decoration: none;
+}
+.join-button:hover{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+.quote-1{
+   
+    font-size: 50px;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 190px;
+    letter-spacing: -4px;
+display: block;
+margin-left: 100px;
+}
+.second-view{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+   
+    
+
+}
+
+.quote-name{
+  
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 600px;
+    margin-bottom: 0;
+}
+.text-box-1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    margin: 40px 40px;
+  
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.box-1 , .box-2 , .box-3{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px black;
+    transition: 0.25s;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image-1 , .image-2 , .image-3{
+    display: block;
+    width: 100px;
+    height: 90px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+.head-1 , .head-2 , .head-3{
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 20px;
+}
+.para-1 , .para-2 , .para-3{
+    font-size: 15px;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 5px;
+}
