@@ -47,7 +47,7 @@ body{
 }
 .join-button:hover{
     background-color: white;
-    font-weight: bold;
+    
     color: black;
 }
 .quote-1{
@@ -94,7 +94,7 @@ margin-left: 100px;
 .box-1 , .box-2 , .box-3{
     display: inline-block;
     width: 300px;
-    height: 350px;
+    height: 400px;
     background-color: white;
     margin: 40px 40px;
     border-radius: 10px;
@@ -126,4 +126,16 @@ margin-left: 100px;
     text-align: center;
     margin-top: 20px;
     padding: 0 5px;
+}
+.quote-div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    width: 470px;
+    height: 300px;
+    margin-bottom: 0;
+    margin-left: 400px;
+    margin-right: 100px;
+
 }
