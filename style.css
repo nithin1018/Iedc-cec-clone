@@ -118,8 +118,10 @@ margin-left: 100px;
     text-align: center;
     margin-left: 100px;
     margin-bottom: 2px;
-    padding-top: 15px;
-    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: auto;
+    padding-right: 70px;
 }
 .head-1 , .head-2 , .head-3{
     font-size: 20px;
@@ -204,19 +206,45 @@ margin-left: 100px;
         display: block;
         justify-content: right;
      }
-     .quote-1{
-        align-items: center;
-        margin: 10px 10px;
-        width: 80%;
-        height: 100%;
-
-        
-     }
+    
      .second-view{
         height: 70%; 
         width: 80%;
         align-items: center;
         margin: 10px 10px;
+     }h1{
+        height: 70%; 
+        width: 80%;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+        align-items: flex-start;
+     }
+     .box-1, .box-2 , .box-3 , .box-4 , .box-5{
+        padding: 20px 1rem;
+        margin: 20px 20px;
+     }
+     .heading , .first-text , .join-button, .quote-1{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+     }
+     .join-button{
+        padding-left: 30px;
+     }
+     .scroll-1-text , .scroll-2-text , .scroll-3-text , .scroll-4-text , .scroll-5-text{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+     }
+     .announcment{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+     }
+     .announcment-image{
+        margin-top: 0;
+        margin-bottom: 10px;
+        
      }
      
 }
