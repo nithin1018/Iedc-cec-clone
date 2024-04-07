@@ -76,6 +76,22 @@ margin-left: 100px;
     margin-left: 650px;
     margin-bottom: 0;
 }
+@media screen and (max-width: 600px) {
+    .quote-div {
+      width: auto; /* Adjust width to fit the screen */
+      margin: 0; /* Remove margin to prevent cutting off on the side */
+      text-align: center; /* Center-align the quote text */
+    }
+  
+    .quote-1 {
+      font-size: 30px; /* Reduce font size for smaller screens */
+      margin-left: 0; /* Adjust margin to center the text */
+    }
+  
+    .quote-name {
+      margin-left: 0; /* Adjust margin to center the text */
+    }
+  }
 .text-box-1{
     display: flex;
     flex-wrap: wrap;
