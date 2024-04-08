@@ -117,7 +117,7 @@ body{
 }
 .image-1 , .image-2 , .image-3{
     display: block;
-    width: 100px;
+    width: 50%;
     height: 90px;
     margin-top: 20px;
     text-align: center;
@@ -201,15 +201,8 @@ body{
 .scroll-1-text, .scroll-2-text, .scroll-3-text, .scroll-4-text, .scroll-5-text{
     font-family: 'Krona One', sans-serif;
 }
-.bottom-div{
-    position:absolute;
-    height: 500px;
-    width:2000px;
-    background-color: #4e4e4e;
-    margin-top: 200px;
-}
-.container{
-    position: relative;
+.navbar-brand{
+    font-family: 'popins' ,sans-serif;
 }
 
 @media(max-width: 1000px){
