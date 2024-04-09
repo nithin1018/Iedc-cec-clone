@@ -205,6 +205,14 @@ body{
     font-family: 'popins' ,sans-serif;
 }
 
+
+.stickyNavCls{
+position:fixed;
+top:0;
+width:100vw;
+}
+
+
 @media(max-width: 750px){
    
     .join-button{
